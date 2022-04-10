@@ -1,8 +1,8 @@
-Gustavo Henrique da Silva Lopes - Desafio Técnico (Engenharia de Software) 
-Desafio técnico de engenharia de software, como parte de avaliação do processo seletivo de estágio 2022.
-Código do desafio
-O arquivo .txt inserido é um pseudocódigo desenvolvido em portugol, utilizando o software VisualG (versão 25).
-O pseudocódigo simula uma estrutura de um leitor de código de barras de pacotes a serem entregues, contendo - respectivamente - informações de região de origem, destino, código da empresa distribuidora, código do vendedor e o tipo de produto presente no pacote, sendo que cada informação do pacote possui uma série de três dígitos. Cada série possui coordenadas específicas para serem consideradas válidas ou inválidas no programa.
-A partir da entrada destes dados, o leitor irá análisar quais informações são válidas ou não.
+Gustavo Henrique da Silva Lopes - Desafio TÃ©cnico (Engenharia de Software e AnÃ¡lise de Dados) 
+Desafio tÃ©cnico de engenharia de software, como parte de avaliaÃ§Ã£o do processo seletivo de estÃ¡gio 2022.
+CÃ³digo do desafio
+O arquivo .txt inserido Ã© um pseudocÃ³digo desenvolvido em portugol, utilizando o software VisualG (versÃ£o 25).
+O pseudocÃ³digo simula uma estrutura de um leitor de cÃ³digo de barras de pacotes a serem entregues, contendo - respectivamente - informaÃ§Ãµes de regiÃ£o de origem, destino, cÃ³digo da empresa distribuidora, cÃ³digo do vendedor e o tipo de produto presente no pacote, sendo que cada informaÃ§Ã£o do pacote possui uma sÃ©rie de trÃªs dÃ­gitos. Cada sÃ©rie possui coordenadas especÃ­ficas para serem consideradas vÃ¡lidas ou invÃ¡lidas no programa.
+A partir da entrada destes dados, o leitor irÃ¡ anÃ¡lisar quais informaÃ§Ãµes sÃ£o vÃ¡lidas ou nÃ£o.
 Folha de respostas
-O arquivo .pdf é a folha de respostas dos itens solicitados, que foi formulada a partir da estrutura desenvolvida no pseudocódigo.
+O arquivo .pdf Ã© a folha de respostas dos itens solicitados, que foi formulada a partir da estrutura desenvolvida no pseudocÃ³digo.
