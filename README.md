@@ -1,4 +1,4 @@
-# Gustavo Henrique da Silva Lopes - Desafio Técnico (Engenharia de Software) 
+# Gustavo Henrique da Silva Lopes - Desafio Técnico (Engenharia de Software e Análise de Dados) 
 Desafio técnico de engenharia de software, como parte de avaliação do processo seletivo de estágio 2022.
 
 ## 👨‍💻Código do desafio
