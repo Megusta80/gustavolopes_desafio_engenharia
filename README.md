@@ -3,7 +3,7 @@ Desafio técnico de engenharia de software, como parte de avaliação do process
 
 ## 👨‍💻Código do desafio
 O arquivo .txt inserido é um pseudocódigo desenvolvido em <strong>portugol</strong>, utilizando o software <strong>VisualG</strong> (versão 25). <br> <br>
-O pseudocódigo simula uma estrutura de um leitor de código de barras de pacotes a serem entregues, contendo - respectivamente - informações de região de origem, destino, código da empresa distribuidora, código do vendendor e o tipo de produto presente no pacote, sendo que cada informação do pacote possui uma série de três dígitos. Cada série possui coordenadas específicas para serem consideradas válidas ou inválidas no programa. 📦 <br> <br>
+O pseudocódigo simula uma estrutura de um leitor de código de barras de pacotes a serem entregues, contendo - respectivamente - informações de região de origem, destino, código da empresa distribuidora, código do vendedor e o tipo de produto presente no pacote, sendo que cada informação do pacote possui uma série de três dígitos. Cada série possui coordenadas específicas para serem consideradas válidas ou inválidas no programa. 📦 <br> <br>
 A partir da entrada destes dados, o leitor irá análisar quais informações são válidas ou não. 🤖
 
 ## 📑Folha de respostas
