@@ -1,0 +1,148 @@
+algoritmo "semnome"
+// Função :  Inteiro
+// Autor : Gustavo Henrique da Silva Lopes
+// Data : 09/04/2022
+// Seção de Declarações 
+var
+codigo_origem,codigo_destino,loggi,vendedor,codigo_produto: inteiro
+pacote,nome_origem,nome_destino,nome_loggi,nome_vendedor,nome_produto: caractere
+
+inicio
+Escreva ("Informe os três primeiros dígitos (Região de origem): ")
+leia (codigo_origem)
+
+se (codigo_origem >=001) e (codigo_origem <=099) entao
+nome_origem<-"Sudeste"
+fimse
+
+se (codigo_origem >=100) e (codigo_origem <=199) entao
+nome_origem<-"Sul"
+fimse
+
+se (codigo_origem >=201) e (codigo_origem <=299) entao
+nome_origem<-"Centro-Oeste"
+fimse
+
+se (codigo_origem >=300) e (codigo_origem <=399) entao
+nome_origem<-"Nordeste"
+fimse
+
+se (codigo_origem >=400) e (codigo_origem <=499) entao
+nome_origem<-"Norte"
+fimse
+
+se (codigo_origem=200) ou (codigo_origem >=500) entao
+nome_origem<-"INVÁLIDO"
+Escreva ("Região de origem ", nome_origem)
+senao
+Escreva ("Região de origem: ",nome_origem)
+fimse
+
+Escreval
+Escreval
+Escreva ("Informe do quarto ao sexto dígito (Região de destino): ")
+leia (codigo_destino)
+
+se (codigo_destino >=001) e (codigo_destino <=099) entao
+nome_destino<-"Sudeste"
+fimse
+
+se (codigo_destino >=100) e (codigo_destino <=199) entao
+nome_destino<-"Sul"
+fimse
+
+se (codigo_destino >=201) e (codigo_destino <=299) entao
+nome_destino<-"Centro-Oeste"
+fimse
+
+se (codigo_destino >=300) e (codigo_destino <=399) entao
+nome_destino<-"Nordeste"
+fimse
+
+se (codigo_destino >=400) e (codigo_destino <=499) entao
+nome_destino<-"Norte"
+fimse
+
+se (codigo_destino=200) ou (codigo_destino >=500) entao
+nome_destino<-"INVÁLIDO"
+Escreva ("Região de destino ",nome_destino)
+senao
+Escreva ("Região de destino: ",nome_destino)
+fimse
+
+Escreval
+Escreval
+Escreva ("Informe os dígitos do sétimo ao nono (Código Loggi): ")
+leia (loggi)
+se (loggi=555) entao
+Escreva ("Código Loggi: ",loggi)
+senao
+nome_loggi<-"(INVÁLIDO)"
+Escreva ("Código Loggi ",nome_loggi)
+fimse
+
+Escreval
+Escreval
+Escreva ("Informe os dígitos do décimo ao décimo-segundo (Código do vendedor): ")
+leia (vendedor)
+se  (vendedor =367) entao
+nome_vendedor<-"(CNPJ INVÁLIDO)"
+Escreva (nome_vendedor)
+senao
+Escreva ("Código do vendedor: ", vendedor)
+fimse
+
+Escreval
+Escreval
+Escreva ("Informe os três últimos dígitos (Código do produto): ")
+leia (codigo_produto)
+escolha (codigo_produto)
+
+caso 001
+nome_produto<-"Jóias"
+Escreva ("Os produtos são ",nome_produto)
+
+caso 111
+nome_produto<-"Livros"
+Escreva ("Os produtos são ",nome_produto)
+
+caso 333
+nome_produto<-"Eletrônicos"
+Escreva ("Os produtos são ",nome_produto)
+
+caso 555
+nome_produto<-"Bebidas"
+Escreva ("Os produtos são ",nome_produto)
+
+caso 888
+nome_produto<-"Brinquedos"
+Escreva ("Os produtos são ",nome_produto)
+
+outrocaso
+nome_produto<-"Produto INVÁLIDO"
+Escreva (nome_produto)
+fimescolha
+
+se (nome_produto="Jóias") e (codigo_origem >=201) e (codigo_origem <=299) entao
+Escreva (" NÃO É PERMITIDO DESPACHE DESTE PRODUTO VINDO DO CENTRO-OESTE")
+fimse
+
+Escreval
+Escreval
+Escreva (
+
+Escreval
+Escreval
+Escreva ("Código: ", codigo_origem, codigo_destino, loggi, vendedor, codigo_produto)
+Escreval
+Escreva ("Região de Origem: Cidade",codigo_origem, ", região ",nome_origem)
+Escreval
+Escreva ("Região de destino: Cidade",codigo_destino, ", região ",nome_destino)
+Escreval
+Escreva ("Código Loggi: ", loggi, " ", nome_loggi)
+Escreval
+Escreva ("Código do vendedor do produto: ", vendedor ," ", nome_vendedor)
+Escreval
+Escreva ("Tipo do produto: ", nome_produto)
+// Seção de Comandos 
+fimalgoritmo
